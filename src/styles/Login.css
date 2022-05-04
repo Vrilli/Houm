@@ -1,0 +1,205 @@
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-family: "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+}
+
+body{
+    color: #263238;
+    margin: 0;
+    box-shadow: none;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    background-color: #fafafa;
+}
+
+ .contenedor{
+    height: 43.75em;
+    width: 60em;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.contenedor-left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding-top: 0.5rem;
+  background-color: white;
+  transform: translateY(0%) scale(1);
+  opacity: 1;
+}
+
+ .contenedor-left img{
+    width: 120px;
+    height: 100px;
+    
+}
+
+.contenedor-left p{
+    position: relative; 
+    top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b0bec5;
+
+}
+
+.contenedor-left h3{
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 0px !important;
+    position: relative;
+    padding-left: 0px !important;
+    text-align: start !important;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding: 11px;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-sizing: border-box;
+} 
+
+.inicio{
+    background-color: #ff452b;
+    border: 0;
+    margin-top: 5%;
+    padding: 14px !important;
+    box-sizing: border-box;
+    width: 50%;
+    overflow: hidden;
+    height: 48px !important;
+    border-radius: 100px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    flex-basis: auto;
+}
+.inicio::hover{
+    pointer-events: auto !important;
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+.contenedor-right{
+    margin-top: 15%;
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border:none;
+  padding-top: 0.5rem;
+  background-color: white;
+  transform: translateY(0%) scale(1);
+  opacity: 1;
+} 
+
+.social-signin{
+    box-sizing: border-box;
+    border: 1px solid #535455a9;
+    border-radius: 5%;
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 40px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+}
+
+.iconify{
+
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    text-align: right;
+    width: 35px;
+    height: 26px;
+    box-sizing: content-box;
+}
+
+.or{
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center !important;
+    color: rgba(0,0,0,0.54);
+}
+
+.imput1{
+    border: 1px solid rgba(120, 120, 118, 0.729);
+    padding: 0 14px;
+    right: 0;
+    height: 40px;
+    font-size: 13px;
+    line-height: normal;
+    width: 100%;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    position: relative;
+    color: rgba(0,0,0,0.87);
+}
+
+.imput2{
+    border: 1px solid rgba(120, 120, 118, 0.729);
+    padding: 0 14px;
+    right: 0;
+    height: 40px;
+    font-size: 13px;
+    line-height: normal;
+    width: 100%;
+    border-radius: 0 2px 2px 0;
+    box-sizing: border-box;
+    position: relative;
+    color: rgba(0,0,0,0.87);
+}
+
+
+
+
+@media (max-width: 960px){
+    .container-left{
+        width: auto;
+        align-items: center;
+        padding: 42px 0px 68px 0px;
+    }
+
+    .container-left p{
+        position: relative;
+        bottom: 0px;
+        transform: translateX(-125px);
+    }
+
+    .container-right {
+        height: 100%;
+        min-height: 375px;
+    }
+}
